@@ -1,0 +1,584 @@
+body {
+  text-align: center;
+  background-color: #1d1f20;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  font-size: 0;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #eee;
+  opacity: 0.3;
+}
+
+.letter {
+  width: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #eee;
+}
+.letter:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  word-break: break-all;
+  background-color: #1d1f20;
+}
+
+.letter:nth-child(1):before {
+  content: "2650943187";
+  margin-top: -192px;
+  -webkit-animation-name: letter1;
+          animation-name: letter1;
+  -webkit-animation-duration: 0.3911111111s;
+          animation-duration: 0.3911111111s;
+  -webkit-animation-delay: 0.89s;
+          animation-delay: 0.89s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter1 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter1 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(2):before {
+  content: "8179235640";
+  margin-top: -144px;
+  -webkit-animation-name: letter2;
+          animation-name: letter2;
+  -webkit-animation-duration: 3.3942857143s;
+          animation-duration: 3.3942857143s;
+  -webkit-animation-delay: 0.01s;
+          animation-delay: 0.01s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter2 {
+  from {
+    margin-top: -144px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter2 {
+  from {
+    margin-top: -144px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(3):before {
+  content: "4257018693";
+  margin-top: -72px;
+  -webkit-animation-name: letter3;
+          animation-name: letter3;
+  -webkit-animation-duration: 0.66s;
+          animation-duration: 0.66s;
+  -webkit-animation-delay: 0.78s;
+          animation-delay: 0.78s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter3 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter3 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(4):before {
+  content: "8130592746";
+  margin-top: -192px;
+  -webkit-animation-name: letter4;
+          animation-name: letter4;
+  -webkit-animation-duration: 1.0666666667s;
+          animation-duration: 1.0666666667s;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter4 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter4 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(5):before {
+  content: "6573104892";
+  margin-top: -168px;
+  -webkit-animation-name: letter5;
+          animation-name: letter5;
+  -webkit-animation-duration: 0.42s;
+          animation-duration: 0.42s;
+  -webkit-animation-delay: 0.88s;
+          animation-delay: 0.88s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter5 {
+  from {
+    margin-top: -168px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter5 {
+  from {
+    margin-top: -168px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(6):before {
+  content: "6098712435";
+  margin-top: -72px;
+  -webkit-animation-name: letter6;
+          animation-name: letter6;
+  -webkit-animation-duration: 2.31s;
+          animation-duration: 2.31s;
+  -webkit-animation-delay: 0.23s;
+          animation-delay: 0.23s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter6 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter6 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(7):before {
+  content: "4689573102";
+  margin-top: -192px;
+  -webkit-animation-name: letter7;
+          animation-name: letter7;
+  -webkit-animation-duration: 0.3911111111s;
+          animation-duration: 0.3911111111s;
+  -webkit-animation-delay: 0.89s;
+          animation-delay: 0.89s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter7 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter7 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(8):before {
+  content: "1572934860";
+  margin-top: -216px;
+  -webkit-animation-name: letter8;
+          animation-name: letter8;
+  -webkit-animation-duration: 3.42s;
+          animation-duration: 3.42s;
+  -webkit-animation-delay: 0.05s;
+          animation-delay: 0.05s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter8 {
+  from {
+    margin-top: -216px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter8 {
+  from {
+    margin-top: -216px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(9):before {
+  content: "2940615783";
+  margin-top: -96px;
+  -webkit-animation-name: letter9;
+          animation-name: letter9;
+  -webkit-animation-duration: 1.408s;
+          animation-duration: 1.408s;
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter9 {
+  from {
+    margin-top: -96px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter9 {
+  from {
+    margin-top: -96px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(10):before {
+  content: "5428970163";
+  margin-top: -120px;
+  -webkit-animation-name: letter10;
+          animation-name: letter10;
+  -webkit-animation-duration: 1.9666666667s;
+          animation-duration: 1.9666666667s;
+  -webkit-animation-delay: 0.41s;
+          animation-delay: 0.41s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter10 {
+  from {
+    margin-top: -120px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter10 {
+  from {
+    margin-top: -120px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(11):before {
+  content: "8634205791";
+  margin-top: -192px;
+  -webkit-animation-name: letter11;
+          animation-name: letter11;
+  -webkit-animation-duration: 2.6311111111s;
+          animation-duration: 2.6311111111s;
+  -webkit-animation-delay: 0.26s;
+          animation-delay: 0.26s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter11 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter11 {
+  from {
+    margin-top: -192px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(12):before {
+  content: "8926307514";
+  margin-top: 0px;
+  -webkit-animation-name: letter12;
+          animation-name: letter12;
+  -webkit-animation-duration: 0s;
+          animation-duration: 0s;
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter12 {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter12 {
+  from {
+    margin-top: 0px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(13):before {
+  content: "3974165082";
+  margin-top: -144px;
+  -webkit-animation-name: letter13;
+          animation-name: letter13;
+  -webkit-animation-duration: 1.2342857143s;
+          animation-duration: 1.2342857143s;
+  -webkit-animation-delay: 0.64s;
+          animation-delay: 0.64s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter13 {
+  from {
+    margin-top: -144px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter13 {
+  from {
+    margin-top: -144px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(14):before {
+  content: "3640189725";
+  margin-top: -24px;
+  -webkit-animation-name: letter14;
+          animation-name: letter14;
+  -webkit-animation-duration: 1.18s;
+          animation-duration: 1.18s;
+  -webkit-animation-delay: 0.41s;
+          animation-delay: 0.41s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter14 {
+  from {
+    margin-top: -24px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter14 {
+  from {
+    margin-top: -24px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(15):before {
+  content: "3874906521";
+  margin-top: -120px;
+  -webkit-animation-name: letter15;
+          animation-name: letter15;
+  -webkit-animation-duration: 2.3666666667s;
+          animation-duration: 2.3666666667s;
+  -webkit-animation-delay: 0.29s;
+          animation-delay: 0.29s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter15 {
+  from {
+    margin-top: -120px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter15 {
+  from {
+    margin-top: -120px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+.letter:nth-child(16):before {
+  content: "6825103974";
+  margin-top: -72px;
+  -webkit-animation-name: letter16;
+          animation-name: letter16;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes letter16 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+@keyframes letter16 {
+  from {
+    margin-top: -72px;
+  }
+  to {
+    margin-top: 24px;
+  }
+}
+
+ul.ddmenu {
+   margin: 0px;               /* メニューバー外側の余白(ゼロ) */
+   padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
+   background-color: #1d1f20; /* バーの背景色(濃い赤色) */
+}
+
+ul.ddmenu li {
+   width: 125px;          /* メニュー項目の横幅(125px) */
+   display: inline-block; /* ★横並びに配置する */
+   list-style-type: none; /* ★リストの先頭記号を消す */
+   position: relative;    /* ★サブメニュー表示の基準位置にする */
+}
+ul.ddmenu a {
+   background-color: #1d1f20; /* メニュー項目の背景色(濃い赤色) */
+   color: white;              /* メニュー項目の文字色(白色) */
+   line-height: 40px;         /* メニュー項目のリンクの高さ(40px) */
+   text-align: center;        /* メインメニューの文字列の配置(中央寄せ) */
+   text-decoration: none;     /* メニュー項目の装飾(下線を消す) */
+   font-weight: bold;         /* 太字にする */
+   display: block;            /* ★項目内全域をリンク可能にする */
+}
+ul.ddmenu a:hover {
+   background-color: #000000; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+   color: #1d1f20;            /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+}
+
+ul.ddmenu ul {
+   margin: 0px;        /* ★サブメニュー外側の余白(ゼロ) */
+   padding: 0px;       /* ★サブメニュー内側の余白(ゼロ) */
+   display: none;      /* ★標準では非表示にする */
+   position: absolute; /* ★絶対配置にする */
+}
+
+ul.ddmenu ul li {
+   width: 135px;               /* サブメニュー1項目の横幅(135px) */
+   border-top: 1px solid pink; /* 項目上側の枠線(ピンク色で1pxの実線) */
+}
+ul.ddmenu ul li a {
+   line-height: 35px;   /* サブメニュー1項目の高さ(35px) */
+   text-align: left;    /* 文字列の配置(左寄せ) */
+   padding-left: 5px;   /* 文字列前方の余白(5px) */
+   font-weight: normal; /* 太字にはしない */
+}
+ul.ddmenu ul li a:hover {
+   background-color: #000000; /* サブメニュー項目にマウスが載ったときの背景色(淡い黄色) */
+   color: #1d1f20;            /* サブメニュー項目にマウスが載ったときの文字色(濃い緑色) */
+}
+
+ul.ddmenu ul ul {
+   margin: 0px;        /* ★サブメニュー外側の余白(ゼロ) */
+   padding: 0px;       /* ★サブメニュー内側の余白(ゼロ) */
+   display: none;      /* ★標準では非表示にする */
+   position: absolute; /* ★絶対配置にする */
+   top: -1px;          /* 1pxだけ上方向にずらす(※上に1pxの枠線を引いている場合) */
+   left: 100%;         /* ★基準位置からの距離を親ボックスの幅100％にする */
+   border-left: 1px solid pink; /* 左側に引く枠線(ピンク色で1pxの実線) */
+}
